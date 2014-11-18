@@ -2,7 +2,7 @@
 module("About Assignment (topics/about_assignment.js)");
 
 test("local variables", function() {
-    var temp = __;
+    var temp = 1;
     equal(temp, 1, "Assign a value to the variable temp");
 });
 
